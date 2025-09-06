@@ -27,7 +27,7 @@ export default function Dashboard() {
     // Simulate analysis
     console.log(agents);
     const res = await fetch(
-      `https://Finverse-backend-eb9y.onrender.com/analyze/${stockName}`,
+      `https://finsight-backend-eb9y.onrender.com/analyze/${stockName}`,
       { method: "GET" }
     );
     const data = await res.json();

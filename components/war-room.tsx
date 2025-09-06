@@ -210,7 +210,7 @@ export function WarRoom({ analysisData, query, setQuery }: WarRoomProps) {
             const que = query;
             setQuery("");
             const res = await fetch(
-              "https://Finverse-backend-eb9y.onrender.com/follow-up",
+              "https://finsight-backend-eb9y.onrender.com/follow-up",
               {
                 method: "POST",
                 headers: {
